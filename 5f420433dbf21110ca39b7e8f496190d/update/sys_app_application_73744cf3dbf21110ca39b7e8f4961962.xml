@@ -14,15 +14,12 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>73744cf3dbf21110ca39b7e8f4961962</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>VMS</sys_name>
         <sys_overrides/>
         <sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package>
         <sys_policy/>
         <sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope>
         <sys_update_name>sys_app_application_73744cf3dbf21110ca39b7e8f4961962</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-11-03 00:43:45</sys_updated_on>
         <title>VMS</title>
         <view_name/>
     </sys_app_application>

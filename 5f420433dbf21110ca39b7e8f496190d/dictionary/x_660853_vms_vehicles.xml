@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="b825c837dbf21110ca39b7e8f496192d" label="Vehicles" max_length="40" name="x_660853_vms_vehicles" type="collection">
+        <element label="Checked Out By" max_length="32" name="checked_out_by" reference="sys_user" type="reference"/>
+        <element label="Licence Plate" max_length="40" name="licence_plate" type="string"/>
+        <element label="Make" max_length="40" name="make" type="string"/>
+        <element label="Mileage" max_length="40" name="mileage" type="integer"/>
+        <element label="Model" max_length="40" name="model" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Parking Space" max_length="40" name="parking_space" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="100" value="available"/>
+                <element inactive_on_update="false" label="Not Available" sequence="200" value="not_available"/>
+            </choice>
+        </element>
+        <element label="VIN" max_length="40" name="vin" type="string"/>
+        <index name="index">
+            <element name="checked_out_by"/>
+        </index>
+    </element>
+</database>
