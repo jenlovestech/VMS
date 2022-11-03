@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-11-03 06:19:58">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<application_name>VMS</application_name>
+<application_scope>x_660853_vms</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by the system</description>
+<inserted/>
+<name>Default</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>17420433dbf21110ca39b7e8f496190f</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:56</sys_created_on>
+<sys_id>2071193bdbf61110ca39b7e8f49619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:56</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_choice_x_660853_vms_vehicles_status</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="status" table="x_660853_vms_vehicles" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>status</element><name>x_660853_vms_vehicles</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:55:14</sys_created_on><sys_id>0027ccf3dbf21110ca39b7e8f49619b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>status</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_choice_x_660853_vms_vehicles_status</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:55:14</sys_updated_on></sys_choice_set><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>status</element><hint/><inactive>false</inactive><label>Available</label><language>en</language><name>x_660853_vms_vehicles</name><sequence>100</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 03:03:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>11542cb3db761110ca39b7e8f49619f5</sys_id><sys_mod_count>3</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:00:48</sys_updated_on><value>available</value></sys_choice><sys_choice action="INSERT_OR_UPDATE"><dependent_value/><element>status</element><hint/><inactive>false</inactive><label>Not Available</label><language>en</language><name>x_660853_vms_vehicles</name><sequence>200</sequence><synonyms/><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 03:03:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>807428b3db761110ca39b7e8f49619df</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:00:56</sys_updated_on><value>not_available</value></sys_choice></sys_choice></record_update>]]></payload>
+<payload_hash>972240822</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2071193bdbf61110ca39b7e8f49619ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843bdd180e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Status</target_name>
+<type>Choice list</type>
+<update_domain>global</update_domain>
+<update_guid>8f5f3cbb58b6111011115052c38f1eab</update_guid>
+<update_guid_history>8f5f3cbb58b6111011115052c38f1eab:972240822,555f70fb43b611104579c17271ee5461:1805052619,ade1f83f71761110dd27a7d03f51aee1:-1542857421,a0e1fcbf9f761110949b0b1c7bf3e8e7:415616542,5c84ec73d37611102ab2fe3804b1187e:972240822,cf6468b311761110d5d7defa984f749d:304195772,f4646cb3d7761110ec6d381b948eb1dd:1275949424,141020bf4836111007894b0b7d842058:-1790523006,4a00e0bfbc3611106526b3fed6d31f58:1835200508,bc7f987f8a3611109f5e5030e8ce9dca:972240822,bb4f587f3a36111047decd5033a99ce8:968335825,3a3f107f8e36111032820921af482846:304195772,1b6cdc7ba1361110c43596ee0f4204e3:-1790523006,9c6cdc7b1b361110a9a8b4bb9ec5e9de:1835200508,f24788b78df21110349ea45d69608724:972240822,802748b7b2f21110d232c718bffae997:304195772</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_number</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_660853_vms_vehicles"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;ignore_filter_on_new=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Number&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;javascript:global.getNextObjNumberPadded();&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;number&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_660853_vms_vehicles&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 00:47:22&lt;/sys_created_on&gt;&lt;sys_id&gt;74558c37dbf21110ca39b7e8f496191a&lt;/sys_id&gt;&lt;sys_name&gt;Number&lt;/sys_name&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_660853_vms_vehicles_number&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 00:47:22&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1112823665</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2071d9fbdbf61110ca39b7e8f49619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4f5360000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Number</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>74558c370ff211102523b8d5e526ca31</update_guid>
+<update_guid_history>74558c370ff211102523b8d5e526ca31:-1112823665,1205c43789f21110acda2c7da580aa33:-1016326789,a30444f3ecf21110d7dcd08de945593f:1984977583</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_status_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="status" label="Status" language="en" table="x_660853_vms_vehicles"><sys_documentation action="INSERT_OR_UPDATE"><element>status</element><help/><hint/><label>Status</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Status</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 03:01:26</sys_created_on><sys_id>e80464b3db761110ca39b7e8f49619bc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Status</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_status_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 03:01:26</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-780877141</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2071d9fbdbf61110ca39b7e8f49619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b6fb2d70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Status</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>f80464b30f7611100c058b36e7eee3c7</update_guid>
+<update_guid_history>f80464b30f7611100c058b36e7eee3c7:-780877141,f3e3e0b33676111072c5c7eb098253fb:271206227,d6b680b7d2f21110eba7f5a58d1575e7:-780877141,3505843728f211101b2787cc502419d8:271206227,a70444f320f211109c1fcae0165c3c5c:-780877141</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_18d8d0f7db361110ca39b7e8f49619a4</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.status=='available'&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Check Out&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[current.status = 'not_available'
+current.checked_out_by = gs.getUserID();
+current.update();
+action.setRedirectURL(current);]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 02:19:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;18d8d0f7db361110ca39b7e8f49619a4&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Check Out&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_18d8d0f7db361110ca39b7e8f49619a4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 05:21:04&lt;/sys_updated_on&gt;&lt;table&gt;x_660853_vms_vehicles&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1072140873</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2071d9fbdbf61110ca39b7e8f49619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843bef89e40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Check Out</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>8af30dffb3b611108c04be5db1008043</update_guid>
+<update_guid_history>8af30dffb3b611108c04be5db1008043:1072140873,bb8ff8fb86b611106065bcbf79434a84:-609429081,4d06fcbfb6761110959df3ad5f899def:1584651796,cae7ac3715761110c0e5fa60a82e02ea:-676978840,c496ec37c8761110bf891a1cbacbe39e:431860844,c73664374b761110c3205731f02e37ba:-1234167732,cb952cb36b761110256a2cc27b1f700a:1156606447,507d58fb3e3611101944cd0e01d2cb20:761528957,10dbdc3b153611104b9f28377da61647:668854941,9e5bd47b53361110fb2073a9d0e4d4b0:-1531280085,ec5a50f7ed361110ac451a704d1bca70:-1268449019</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_5f420433dbf21110ca39b7e8f496190d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>true</can_edit_in_studio><enforce_license>none</enforce_license><guided_setup_guid/><hide_on_ui>false</hide_on_ui><installed_as_dependency>false</installed_as_dependency><js_level>helsinki_es5</js_level><licensable>true</licensable><license/><license_category>none</license_category><license_definition/><license_model>none</license_model><logo/><menu/><name>VMS</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_660853_vms</scope><scoped_administration>false</scoped_administration><short_description/><source>x_660853_vms</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:34:10</sys_created_on><sys_id>5f420433dbf21110ca39b7e8f496190d</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:34:10</sys_updated_on><template/><trackable>true</trackable><uninstall_blocked>false</uninstall_blocked><user_role/><vendor/><vendor_prefix/><version>1.0.0</version></sys_app><sys_translated_text action="delete_multiple" query="documentkey=5f420433dbf21110ca39b7e8f496190d"/></record_update>]]></payload>
+<payload_hash>664589380</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:56</sys_created_on>
+<sys_id>2471193bdbf61110ca39b7e8f49619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843ae8df240000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:56</sys_updated_on>
+<table/>
+<target_name>VMS</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>ef42043317f211102be747dd33480e10</update_guid>
+<update_guid_history>ef42043317f211102be747dd33480e10:664589380</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_58554037dbf21110ca39b7e8f49619fc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Vehicles">50554037dbf21110ca39b7e8f49619fa</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Vehicles</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_660853_vms_vehicles</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_660853_vms.vehicles_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>58554037dbf21110ca39b7e8f49619fc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vehicles</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_app_module_58554037dbf21110ca39b7e8f49619fc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:20</sys_updated_on><timeline_page/><title>Vehicles</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-916591588</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2471193bdbf61110ca39b7e8f49619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4ebec0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>10554037fbf2111025605d0ce07f83fe</update_guid>
+<update_guid_history>10554037fbf2111025605d0ce07f83fe:-916591588</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_milage</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="DELETE" element="milage" table="x_660853_vms_vehicles"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Milage</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>milage</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Integer">integer</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_660853_vms_vehicles</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:41:46</sys_created_on><sys_id>360404f3dbf21110ca39b7e8f49619cb</sys_id><sys_name>Milage</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_dictionary_x_660853_vms_vehicles_milage</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:41:46</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>2025063692</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2471d9fbdbf61110ca39b7e8f49619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af3ca050000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>x_660853_vms_vehicles.milage</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>c205c43749f21110298474fada907f2a</update_guid>
+<update_guid_history>c205c43749f21110298474fada907f2a:2025063692,570444f3a0f211105178f16db8e1dd38:-1475407552</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_model_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="model" label="Model" language="en" table="x_660853_vms_vehicles"><sys_documentation action="INSERT_OR_UPDATE"><element>model</element><help/><hint/><label>Model</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Models</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:53:28</sys_created_on><sys_id>4eb680b7dbf21110ca39b7e8f49619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Model</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_model_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:53:28</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>767431144</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2471d9fbdbf61110ca39b7e8f49619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843afa8c3c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Model</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>16b680b750f21110ddb383bbb2a7d6e2</update_guid>
+<update_guid_history>16b680b750f21110ddb383bbb2a7d6e2:767431144,690584371ef21110cc8f7740f65712c0:-1597144512,3f0444f3b6f21110831207c90b02ba5d:767431144</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_64554c37dbf21110ca39b7e8f49619be</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:21</sys_created_on><sys_id>64554c37dbf21110ca39b7e8f49619be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles.x_660853_vms.vehicles_user</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_security_acl display_value="x_660853_vms_vehicles">10554c37dbf21110ca39b7e8f49619bb</sys_security_acl><sys_update_name>sys_security_acl_role_64554c37dbf21110ca39b7e8f49619be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:21</sys_updated_on><sys_user_role display_value="x_660853_vms.vehicles_user" name="x_660853_vms.vehicles_user">14554037dbf21110ca39b7e8f49619f4</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1819800043</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2471d9fbdbf61110ca39b7e8f49619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4eec40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>x_660853_vms_vehicles.x_660853_vms.vehicles_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>e4554c377ff21110fb75c13fcdfa33d9</update_guid>
+<update_guid_history>e4554c377ff21110fb75c13fcdfa33d9:-1819800043</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_checked_in_by</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="DELETE" element="checked_in_by" table="x_660853_vms_vehicles"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Checked In By&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;checked_in_by&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_660853_vms_vehicles&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 01:12:40&lt;/sys_created_on&gt;&lt;sys_id&gt;a4cac87bdbf21110ca39b7e8f49619a6&lt;/sys_id&gt;&lt;sys_name&gt;Checked In By&lt;/sys_name&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_660853_vms_vehicles_checked_in_by&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 01:12:40&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1238485862</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2871d9fbdbf61110ca39b7e8f49619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b5ad51c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.checked_in_by</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>7ace107f84361110441ea308d9e9ef3d</update_guid>
+<update_guid_history>7ace107f84361110441ea308d9e9ef3d:1238485862,2b1b00bbd0f21110f60791030c10a7da:1169234098</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_licence_plate_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="licence_plate" label="Licence Plate" language="en" table="x_660853_vms_vehicles"><sys_documentation action="INSERT_OR_UPDATE"><element>licence_plate</element><help/><hint/><label>Licence Plate</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Licence Plates</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:10:28</sys_created_on><sys_id>8f9a087bdbf21110ca39b7e8f4961963</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Licence Plate</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_licence_plate_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:10:28</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>928395336</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2871d9fbdbf61110ca39b7e8f49619e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b0a1a280000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Licence Plate</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>5f9a087b3af21110786f83005f0eec77</update_guid>
+<update_guid_history>5f9a087b3af21110786f83005f0eec77:928395336</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_10554c37dbf21110ca39b7e8f49619bb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_660853_vms_vehicles</description><name>x_660853_vms_vehicles</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:20</sys_created_on><sys_id>10554c37dbf21110ca39b7e8f49619bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_security_acl_10554c37dbf21110ca39b7e8f49619bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:20</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1331807825</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2871d9fbdbf61110ca39b7e8f49619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4ee7d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>x_660853_vms_vehicles</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>a4554c370af2111092652a2756ddc9bd</update_guid>
+<update_guid_history>a4554c370af2111092652a2756ddc9bd:1331807825</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_476bbcf7dbb61110ca39b7e8f496198d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="History" section_id="476bbcf7dbb61110ca39b7e8f496198d" sys_domain="global" table="x_660853_vms_vehicles" version="3" view=""><sys_ui_section action="DELETE"><caption>History</caption><header>false</header><name>x_660853_vms_vehicles</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path/><sys_id>476bbcf7dbb61110ca39b7e8f496198d</sys_id><sys_mod_count/><sys_name>x_660853_vms_vehicles</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on>2022-11-03 04:48:23</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>2034794377</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2871d9fbdbf61110ca39b7e8f49619ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843bd19a580000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>177c7c3b87b61110d5830ecf437c2dd5</update_guid>
+<update_guid_history>177c7c3b87b61110d5830ecf437c2dd5:2034794377,2dfb743b9ab61110ec0becd167636500:1207758864,2babbcf757b611107171cd8b71211997:1559297802,137bf4f7a4b6111068a9b71e8dba644e:1207758864</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_sys_class_name</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="sys_class_name" table="x_660853_vms_vehicles"><active>true</active><array>false</array><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Class</column_label><comments/><create_roles/><default_value>javascript:current.getTableName();</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>sys_class_name</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="">sys_class_name</internal_type><mandatory>false</mandatory><max_length>80</max_length><name>x_660853_vms_vehicles</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:41:43</sys_created_on><sys_id>8a0404f3dbf21110ca39b7e8f496196c</sys_id><sys_name>Class</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_dictionary_x_660853_vms_vehicles_sys_class_name</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:41:43</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type/><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>414258955</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2c71d9fbdbf61110ca39b7e8f49619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843aefcd440000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Class</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>160404f31ef2111005c9efa2b07ba6c3</update_guid>
+<update_guid_history>160404f31ef2111005c9efa2b07ba6c3:414258955</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_960404f3dbf21110ca39b7e8f49619c4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="DELETE"><category display_value="" name="x_660853_vms_vehicles">x_660853_vms_vehicles</category><maximum_digits>3</maximum_digits><number>1000</number><prefix>VEH</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:41:45</sys_created_on><sys_id>960404f3dbf21110ca39b7e8f49619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VEH</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_number_960404f3dbf21110ca39b7e8f49619c4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:41:45</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>462124421</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2c71d9fbdbf61110ca39b7e8f49619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af3c7980000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table/>
+<target_name>VEH</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>ca05c4372df21110f5cb0de86a6b2301</update_guid>
+<update_guid_history>ca05c4372df21110f5cb0de86a6b2301:462124421</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_18554c37dbf21110ca39b7e8f49619b7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Vehicles">18554c37dbf21110ca39b7e8f49619b4</application><filter/><name>Vehicles</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_660853_vms.vehicles_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>18554c37dbf21110ca39b7e8f49619b7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vehicles</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_ui_module_18554c37dbf21110ca39b7e8f49619b7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:20</sys_updated_on><table>x_660853_vms_vehicles</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-2046936096</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>2c71d9fbdbf61110ca39b7e8f49619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4ed260000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>dc554c37fbf2111019f7a4f3ca5dccb9</update_guid>
+<update_guid_history>dc554c37fbf2111019f7a4f3ca5dccb9:-2046936096</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_18d2e8ffdb361110ca39b7e8f496198b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="VMS">50554037dbf21110ca39b7e8f49619fa</application><assessment/><device_type/><filter table="x_660853_vms_vehicles">status=available^EQ<item display_value="Available" endquery="false" field="status" goto="false" newquery="false" operator="=" or="false" value="available"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Available</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_660853_vms_vehicles</name><order>100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 02:57:55</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>18d2e8ffdb361110ca39b7e8f496198b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Available</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_app_module_18d2e8ffdb361110ca39b7e8f496198b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 03:59:53</sys_updated_on><timeline_page/><title>Available</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-146014713</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6071193bdbf61110ca39b7e8f49619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843ba534f70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Available</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>f061f4bf0f76111095d8444cbd6966a6</update_guid>
+<update_guid_history>f061f4bf0f76111095d8444cbd6966a6:-146014713,9933e8ffe6361110af8cef35594e77aa:-831278728</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_make</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="make" table="x_660853_vms_vehicles"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Make&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;make&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_660853_vms_vehicles&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 00:53:27&lt;/sys_created_on&gt;&lt;sys_id&gt;4a55ccf3dbf21110ca39b7e8f49619ae&lt;/sys_id&gt;&lt;sys_name&gt;Make&lt;/sys_name&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_660853_vms_vehicles_make&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 00:53:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1578698003</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6071d9fbdbf61110ca39b7e8f49619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843afa8b800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Make</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>56b680b7d9f2111065042508d54b65d8</update_guid>
+<update_guid_history>56b680b7d9f2111065042508d54b65d8:-1578698003,06b6c87749f21110c0c11d5202bdcc09:-1578698003,a205c43791f211108df6c6e3d404ed82:-195616687,e70444f31ef21110ef2c9a9918c1783d:991811973</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_mileage_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="mileage" label="Mileage" language="en" table="x_660853_vms_vehicles"><sys_documentation action="INSERT_OR_UPDATE"><element>mileage</element><help/><hint/><label>Mileage</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Mileages</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:53:28</sys_created_on><sys_id>5eb680b7dbf21110ca39b7e8f49619cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Mileage</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_mileage_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:53:28</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-104490296</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6071d9fbdbf61110ca39b7e8f49619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843afa8c6f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Mileage</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>12b680b70bf21110d4915b7e196aefe6</update_guid>
+<update_guid_history>12b680b70bf21110d4915b7e196aefe6:-104490296</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_a4554c37dbf21110ca39b7e8f49619e4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_660853_vms_vehicles</description><name>x_660853_vms_vehicles</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:21</sys_created_on><sys_id>a4554c37dbf21110ca39b7e8f49619e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_security_acl_a4554c37dbf21110ca39b7e8f49619e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1083482803</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6071d9fbdbf61110ca39b7e8f49619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4f0020000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>x_660853_vms_vehicles</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>ec554c37fef21110b57393bf655700e5</update_guid>
+<update_guid_history>ec554c37fef21110b57393bf655700e5:1083482803</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_b825c837dbf21110ca39b7e8f496192d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Vehicles</label><live_feed_enabled>false</live_feed_enabled><name>x_660853_vms_vehicles</name><number_ref display_value="VEH">78558c37dbf21110ca39b7e8f4961908</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:20</sys_created_on><sys_id>b825c837dbf21110ca39b7e8f496192d</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Vehicles</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_db_object_b825c837dbf21110ca39b7e8f496192d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:22</sys_updated_on><update_access>false</update_access><user_role display_value="x_660853_vms.vehicles_user" name="x_660853_vms.vehicles_user">14554037dbf21110ca39b7e8f49619f4</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1229268204</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6471d9fbdbf61110ca39b7e8f49619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4f4030000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>34558c37e4f21110bea135aafe565e19</update_guid>
+<update_guid_history>34558c37e4f21110bea135aafe565e19:1229268204,b8558c375df21110fc2b12bd87fa0807:-362789495</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_checked_out_by_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="checked_out_by" label="Checked Out By" language="en" table="x_660853_vms_vehicles"><sys_documentation action="INSERT_OR_UPDATE"><element>checked_out_by</element><help/><hint/><label>Checked Out By</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Checked Out Bys</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:14:43</sys_created_on><sys_id>199b08bbdbf21110ca39b7e8f4961951</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Checked Out By</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_checked_out_by_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:14:43</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1551712680</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6471d9fbdbf61110ca39b7e8f49619e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b0dff340000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Checked Out By</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>699b08bb5ff21110a70703da8a36335c</update_guid>
+<update_guid_history>699b08bb5ff21110a70703da8a36335c:-1551712680</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_432205bfdbb61110ca39b7e8f4961945</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Read only fields after being created&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   if(!g_form.isNewRecord()) 
+{
+  //***Change the column names [1st parameter] as per your needs****//
+  g_form.setReadOnly('number', true);
+  g_form.setReadOnly('make', true);
+  g_form.setReadOnly('model', true);
+  g_form.setReadOnly('licence_plate', true);
+  g_form.setReadOnly('vin', true);
+  g_form.setReadOnly('status', true);
+}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 05:17:17&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;432205bfdbb61110ca39b7e8f4961945&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Read only fields after being created&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_432205bfdbb61110ca39b7e8f4961945&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 05:17:17&lt;/sys_updated_on&gt;&lt;table&gt;x_660853_vms_vehicles&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>319130444</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6471d9fbdbf61110ca39b7e8f49619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843bec102f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Read only fields after being created</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>6213457fd6b61110c7f59b21835efb98</update_guid>
+<update_guid_history>6213457fd6b61110c7f59b21835efb98:319130444</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_36fbc0bbdbf21110ca39b7e8f496193d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="36fbc0bbdbf21110ca39b7e8f496193d" sys_domain="global" table="x_660853_vms_vehicles" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:27:10</sys_created_on><sys_id>2b550573dbf61110ca39b7e8f496190c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">36fbc0bbdbf21110ca39b7e8f496193d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:27:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>make</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:27:10</sys_created_on><sys_id>af550573dbf61110ca39b7e8f496190c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">36fbc0bbdbf21110ca39b7e8f496193d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:27:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>model</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:27:10</sys_created_on><sys_id>23550573dbf61110ca39b7e8f496190d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">36fbc0bbdbf21110ca39b7e8f496193d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:27:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>mileage</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:27:10</sys_created_on><sys_id>a3550573dbf61110ca39b7e8f496190d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">36fbc0bbdbf21110ca39b7e8f496193d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:27:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>licence_plate</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:27:10</sys_created_on><sys_id>27550573dbf61110ca39b7e8f496190d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">36fbc0bbdbf21110ca39b7e8f496193d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:27:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>vin</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:27:10</sys_created_on><sys_id>a7550573dbf61110ca39b7e8f496190d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">36fbc0bbdbf21110ca39b7e8f496193d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:27:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:27:10</sys_created_on><sys_id>2b550573dbf61110ca39b7e8f496190d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">36fbc0bbdbf21110ca39b7e8f496193d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:27:10</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:27:10</sys_created_on><sys_id>ab550573dbf61110ca39b7e8f496190d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">36fbc0bbdbf21110ca39b7e8f496193d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:27:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>parking_space</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:27:10</sys_created_on><sys_id>2f550573dbf61110ca39b7e8f496190d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">36fbc0bbdbf21110ca39b7e8f496193d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:27:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>checked_out_by</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:27:10</sys_created_on><sys_id>af550573dbf61110ca39b7e8f496190d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">36fbc0bbdbf21110ca39b7e8f496193d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:27:10</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_660853_vms_vehicles</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:16:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>36fbc0bbdbf21110ca39b7e8f496193d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_ui_section_36fbc0bbdbf21110ca39b7e8f496193d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:16:28</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>-2074349864</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6471d9fbdbf61110ca39b7e8f49619ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843bf51e9f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>eb5505732df6111008d88b6c4997bc0f</update_guid>
+<update_guid_history>eb5505732df6111008d88b6c4997bc0f:-2074349864,4aebb03befb611107b91f841558ba0f6:-223000824,3d8bb8f735b611105a0c59612ef14da6:1676039108,e29afcb7f1b6111054a8f9bfa142a251:858422979,405ab8b74bb611105925833ca4640bbb:-106207566,590e0c3f39f21110b773badd7b3479b9:-1749902719,4a8c84fb4cf211100a7adbcee6da050a:588125569,47fb8cbb77f2111053bf924896c70f4b:1783044492,43fbc0bb86f211105887f4eb75f49540:1642523821</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_status</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="status" table="x_660853_vms_vehicles"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice&gt;1&lt;/choice&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Status&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;status&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_660853_vms_vehicles&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 03:01:26&lt;/sys_created_on&gt;&lt;sys_id&gt;38d3ec73db761110ca39b7e8f49619b9&lt;/sys_id&gt;&lt;sys_name&gt;Status&lt;/sys_name&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_660853_vms_vehicles_status&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 05:24:04&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1038648811</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6871d9fbdbf61110ca39b7e8f49619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843bf249610000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Status</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>02a4c53343f61110604f3fb0435dfdf7</update_guid>
+<update_guid_history>02a4c53343f61110604f3fb0435dfdf7:-1038648811,efc1497f99b61110031d5f496e651b78:-1213102929,2a00413fecb6111053c0137ec7a4eac8:147217786,24cffcfbecb61110a21056fc20d4956a:-1213102929,4786b0f3cbb61110539925f910c18df3:147217786,0412b8bfb97611101496fcf88d4486d6:-1213102929,a19420f3b77611104e006d6cbdc749d5:405699121,eb24a4b3c57611104ce69371b7faab9c:1307815864,712464b3ed76111092f9485bc3fd1d10:405699121,200464b33176111069747727695a5ab7:-1865069971,08f324b35976111055ea10cc8061f510:-1904441267,f95360737a761110873f79581f11eaa9:1307815864,2641a8ff8536111064d417b303dd4e53:147217786,be20ec7fd7361110b5e289af61d73c70:-1213102929,b3de507f603611105b97ffe7e38464ac:-1038648811,423c54bb0036111047cfe7226dbe53d9:2092507988,c2b680b7b4f21110212f0bad66b601bf:238086901,6605c437bbf211100cf94245027da769:-168640150,501444f351f211107d94fc21480f62a8:-1462303074,530444f31df21110181f30e085cef53a:1555928510</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_78558c37dbf21110ca39b7e8f4961908</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_660853_vms_vehicles">x_660853_vms_vehicles</category><maximum_digits>3</maximum_digits><number>1000</number><prefix>VEH</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:22</sys_created_on><sys_id>78558c37dbf21110ca39b7e8f4961908</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VEH</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_number_78558c37dbf21110ca39b7e8f4961908</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:22</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>-1087697135</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6871d9fbdbf61110ca39b7e8f49619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4f6420000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table/>
+<target_name>VEH</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>05558c3705f21110fc5dbbc9f7d6ca3a</update_guid>
+<update_guid_history>05558c3705f21110fc5dbbc9f7d6ca3a:-1087697135</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_form_sections_876bbcf7dbb61110ca39b7e8f496198b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="876bbcf7dbb61110ca39b7e8f496198b" sys_domain="global" table="x_660853_vms_vehicles" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 04:43:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0f6bbcf7dbb61110ca39b7e8f496198c</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_660853_vms_vehicles" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">876bbcf7dbb61110ca39b7e8f496198b</sys_ui_form><sys_ui_section caption="NULL" display_value="" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">36fbc0bbdbf21110ca39b7e8f496193d</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 04:43:43</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_660853_vms_vehicles</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 04:43:43</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>876bbcf7dbb61110ca39b7e8f496198b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_ui_form_sections_876bbcf7dbb61110ca39b7e8f496198b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 04:43:43</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+<payload_hash>-743949798</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6871d9fbdbf61110ca39b7e8f49619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843bd19a380000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles</target_name>
+<type>Form Sections</type>
+<update_domain>global</update_domain>
+<update_guid>db7c7c3b47b61110b99e438834e276d3</update_guid>
+<update_guid_history>db7c7c3b47b61110b99e438834e276d3:-743949798,5f6bbcf7beb61110130c19d91288a390:104794184</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_fb744cf3dbf21110ca39b7e8f496196a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="DELETE"><active>true</active><application display_value="VMS">73744cf3dbf21110ca39b7e8f4961962</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>All</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_660853_vms_vehicles</name><order>3</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:43:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>fb744cf3dbf21110ca39b7e8f496196a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>All</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_app_module_fb744cf3dbf21110ca39b7e8f496196a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:43:45</sys_updated_on><timeline_page/><title>All</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>-1006946549</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6c71193bdbf61110ca39b7e8f49619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af3b5820000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>All</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>78058437b6f21110340e604b501a877b</update_guid>
+<update_guid_history>78058437b6f21110340e604b501a877b:-1006946549,3f744cf3d0f211109993e98267d4416b:-857055337</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_660853_vms_vehicles"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;true&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_660853_vms_vehicles&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 00:47:21&lt;/sys_created_on&gt;&lt;sys_id&gt;64554c37dbf21110ca39b7e8f49619e9&lt;/sys_id&gt;&lt;sys_name&gt;x_660853_vms_vehicles&lt;/sys_name&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_660853_vms_vehicles_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 04:38:52&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-2053732527</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6c71d9fbdbf61110ca39b7e8f49619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843bc8e6a80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>845ab8b702b6111035630746ee3ad3b8</update_guid>
+<update_guid_history>845ab8b702b6111035630746ee3ad3b8:-2053732527,f0554c373cf21110515860cfc13a17fe:1210493930,2a05c43738f2111073d8d72a3b914791:-1848019411,6d0404f3a9f2111087c105a0d6cbd766:-2080005023</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_parking_space_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="parking_space" label="Parking Space" language="en" table="x_660853_vms_vehicles"><sys_documentation action="INSERT_OR_UPDATE"><element>parking_space</element><help/><hint/><label>Parking Space</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Parking Spaces</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:10:28</sys_created_on><sys_id>879a087bdbf21110ca39b7e8f4961966</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Parking Space</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_parking_space_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:10:28</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>211337064</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6c71d9fbdbf61110ca39b7e8f49619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b0a1a380000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Parking Space</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>979a087b05f21110aafc4e3a807f38b7</update_guid>
+<update_guid_history>979a087b05f21110aafc4e3a807f38b7:211337064</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6c554c37dbf21110ca39b7e8f49619e6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:21</sys_created_on><sys_id>6c554c37dbf21110ca39b7e8f49619e6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles.x_660853_vms.vehicles_user</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_security_acl display_value="x_660853_vms_vehicles">a4554c37dbf21110ca39b7e8f49619e4</sys_security_acl><sys_update_name>sys_security_acl_role_6c554c37dbf21110ca39b7e8f49619e6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:21</sys_updated_on><sys_user_role display_value="x_660853_vms.vehicles_user" name="x_660853_vms.vehicles_user">14554037dbf21110ca39b7e8f49619f4</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1833809896</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>6c71d9fbdbf61110ca39b7e8f49619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4f03c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>x_660853_vms_vehicles.x_660853_vms.vehicles_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>28554c3757f21110ce2fe99140918ae8</update_guid>
+<update_guid_history>28554c3757f21110ce2fe99140918ae8:-1833809896</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_b00404f3dbf21110ca39b7e8f4961910</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="DELETE"><access>public</access><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><is_extendable>true</is_extendable><label>Vehicles</label><live_feed_enabled>false</live_feed_enabled><name>x_660853_vms_vehicles</name><number_ref display_value="">960404f3dbf21110ca39b7e8f49619c4</number_ref><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:41:38</sys_created_on><sys_id>b00404f3dbf21110ca39b7e8f4961910</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Vehicles</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_db_object_b00404f3dbf21110ca39b7e8f4961910</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:41:45</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1463877247</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>a071d9fbdbf61110ca39b7e8f49619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af3d30c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>b605c4371df21110b12e484d6ba3c1a9</update_guid>
+<update_guid_history>b605c4371df21110b12e484d6ba3c1a9:-1463877247,750404f3d0f211108d965d39654fa36b:-1678821271,750404f3d0f211108d965d39654fa36b:-1678821271,210404f39cf2111028e608644b05d968:-294969204</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_checked_in_by_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation action="DELETE" element="checked_in_by" label="Checked In By" language="en" table="x_660853_vms_vehicles"><sys_documentation action="DELETE"><element>checked_in_by</element><help/><hint/><label>Checked In By</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Checked In Bys</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:12:40</sys_created_on><sys_id>9f1bc07bdbf21110ca39b7e8f4961929</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Checked In By</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_checked_in_by_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:12:40</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1985358016</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>a071d9fbdbf61110ca39b7e8f49619e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b5ad1c10000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.checked_in_by</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>eace107f3036111043e690d49fa8f632</update_guid>
+<update_guid_history>eace107f3036111043e690d49fa8f632:-1985358016,af1b00bb19f21110f668b2c2ad0f3ddb:2048900840</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_2fdb187bdb361110ca39b7e8f4961909</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 02:25:52</sys_created_on><sys_id>2fdb187bdb361110ca39b7e8f4961909</sys_id><sys_mod_count>0</sys_mod_count><sys_name>GlideRecord.update</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_scope_privilege_2fdb187bdb361110ca39b7e8f4961909</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 02:25:52</sys_updated_on><target_name>GlideRecord.update</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>1726151145</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>a071d9fbdbf61110ca39b7e8f49619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b4f1fdd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table/>
+<target_name>GlideRecord.update</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>abdb187b7a361110a268d4bfb6edd90b</update_guid>
+<update_guid_history>abdb187b7a361110a268d4bfb6edd90b:1726151145</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_175cc0fbdbf21110ca39b7e8f4961954</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="175cc0fbdbf21110ca39b7e8f4961954" sys_domain="global" table="x_660853_vms_vehicles" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>status</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>635cc0fbdbf21110ca39b7e8f49619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>e35cc0fbdbf21110ca39b7e8f49619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>checked_in_by</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>675cc0fbdbf21110ca39b7e8f49619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>checked_out_by</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>e75cc0fbdbf21110ca39b7e8f49619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>6b5cc0fbdbf21110ca39b7e8f49619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>eb5cc0fbdbf21110ca39b7e8f49619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>6f5cc0fbdbf21110ca39b7e8f49619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>make</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>ef5cc0fbdbf21110ca39b7e8f49619b0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>model</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>635cc0fbdbf21110ca39b7e8f49619b1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>e35cc0fbdbf21110ca39b7e8f49619b1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>mileage</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>675cc0fbdbf21110ca39b7e8f49619b1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>licence_plate</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>e75cc0fbdbf21110ca39b7e8f49619b1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>parking_space</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>6b5cc0fbdbf21110ca39b7e8f49619b1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>vin</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_id>eb5cc0fbdbf21110ca39b7e8f49619b1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_660853_vms_vehicles" sys_domain="global" view="Default view">175cc0fbdbf21110ca39b7e8f4961954</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_660853_vms_vehicles</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:18:08</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>175cc0fbdbf21110ca39b7e8f4961954</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_ui_section_175cc0fbdbf21110ca39b7e8f4961954</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:18:08</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>2037515453</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>a071d9fbdbf61110ca39b7e8f49619ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b111e9e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>af5cc0fb6df211103ab3037ecc658ab3</update_guid>
+<update_guid_history>af5cc0fb6df211103ab3037ecc658ab3:2037515453</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_parking_space</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="parking_space" table="x_660853_vms_vehicles"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Parking Space&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;parking_space&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_660853_vms_vehicles&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 01:10:27&lt;/sys_created_on&gt;&lt;sys_id&gt;51f884b7dbf21110ca39b7e8f4961976&lt;/sys_id&gt;&lt;sys_name&gt;Parking Space&lt;/sys_name&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_660853_vms_vehicles_parking_space&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 01:10:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>246708423</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>a471d9fbdbf61110ca39b7e8f49619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b0a19f70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Parking Space</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>079a087b33f211104a395e55602cb975</update_guid>
+<update_guid_history>079a087b33f211104a395e55602cb975:246708423,4b9a087bc9f2111001d56baf8c57895f:246708423</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Vehicles" language="en" table="x_660853_vms_vehicles"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Vehicles</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Vehicles</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:21</sys_created_on><sys_id>ec554c37dbf21110ca39b7e8f49619ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vehicles</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:21</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1176865189</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>a471d9fbdbf61110ca39b7e8f49619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4f3200000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>fc558c3743f21110f2d8a9e0585c6c03</update_guid>
+<update_guid_history>fc558c3743f21110f2d8a9e0585c6c03:-1176865189,bc0584376af21110b1d676fc68c1f751:379769715,bc058437e0f21110301f4cfb3b7d8834:-1176865189</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_18554c37dbf21110ca39b7e8f49619b4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Vehicles</name><order/><roles>x_660853_vms.vehicles_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>18554c37dbf21110ca39b7e8f49619b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vehicles</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_ui_application_18554c37dbf21110ca39b7e8f49619b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:20</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-433484407</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>a471d9fbdbf61110ca39b7e8f49619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4ec9c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table/>
+<target_name>Vehicles</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>98554c37d9f21110e2d542c336fce1b6</update_guid>
+<update_guid_history>98554c37d9f21110e2d542c336fce1b6:-433484407</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_7f744cf3dbf21110ca39b7e8f4961968</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="DELETE"><active>true</active><application display_value="VMS">73744cf3dbf21110ca39b7e8f4961962</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_660853_vms_vehicles</name><order>2</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:43:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7f744cf3dbf21110ca39b7e8f4961968</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_app_module_7f744cf3dbf21110ca39b7e8f4961968</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:43:45</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1518432363</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>a871193bdbf61110ca39b7e8f49619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af3b4c30000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Create New</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>34058437aff21110f3fd68dae1b36d5c</update_guid>
+<update_guid_history>34058437aff21110f3fd68dae1b36d5c:1518432363,ff744cf351f2111069fdf89661d58369:1609751287</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_model</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="model" table="x_660853_vms_vehicles"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Model&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;model&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_660853_vms_vehicles&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 00:53:28&lt;/sys_created_on&gt;&lt;sys_id&gt;66c5ccf3dbf21110ca39b7e8f49619c9&lt;/sys_id&gt;&lt;sys_name&gt;Model&lt;/sys_name&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_660853_vms_vehicles_model&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 00:53:28&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1944962211</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>a871d9fbdbf61110ca39b7e8f49619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843afa8ba00000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Model</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>deb680b70ff21110dc5ee06bdac827d9</update_guid>
+<update_guid_history>deb680b70ff21110dc5ee06bdac827d9:-1944962211,42b680b727f211107960b52ec698f074:-1944962211,6205c4373ff21110f2e691ed860cfa72:-1291926109,1f0444f345f21110ece59df097de5c3b:1486734551</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_number_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="number" label="Number" language="en" table="x_660853_vms_vehicles"><sys_documentation action="INSERT_OR_UPDATE"><element>number</element><help/><hint/><label>Number</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Numbers</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:22</sys_created_on><sys_id>b4558c37dbf21110ca39b7e8f496191d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_number_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:22</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1303344538</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>a871d9fbdbf61110ca39b7e8f49619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4f5c70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Number</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>38558c3722f211104ebacf066a5ad136</update_guid>
+<update_guid_history>38558c3722f211104ebacf066a5ad136:-1303344538,bd058437c7f21110e2e661df6f5d4ae1:1216086718,3b0444f3f8f21110e0149eb49447f060:-1303344538</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6c554c37dbf21110ca39b7e8f49619e1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:21</sys_created_on><sys_id>6c554c37dbf21110ca39b7e8f49619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles.x_660853_vms.vehicles_user</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_security_acl display_value="x_660853_vms_vehicles">a4554c37dbf21110ca39b7e8f49619df</sys_security_acl><sys_update_name>sys_security_acl_role_6c554c37dbf21110ca39b7e8f49619e1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:21</sys_updated_on><sys_user_role display_value="x_660853_vms.vehicles_user" name="x_660853_vms.vehicles_user">14554037dbf21110ca39b7e8f49619f4</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>746698539</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>a871d9fbdbf61110ca39b7e8f49619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4efc20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>x_660853_vms_vehicles.x_660853_vms.vehicles_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>28554c37f1f211100c8b1038e5f42ae3</update_guid>
+<update_guid_history>28554c37f1f211100c8b1038e5f42ae3:746698539</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_73744cf3dbf21110ca39b7e8f4961962</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="">Custom Applications</category><description>Vehicle Management System</description><device_type>browser</device_type><hint>Vehicle Management System</hint><name/><order/><roles>user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:43:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>73744cf3dbf21110ca39b7e8f4961962</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VMS</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_app_application_73744cf3dbf21110ca39b7e8f4961962</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:43:45</sys_updated_on><title>VMS</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>1434503852</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>ac71193bdbf61110ca39b7e8f49619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af1a4650000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table/>
+<target_name>VMS</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>ff744cf3b6f2111035b32aa21ef1c364</update_guid>
+<update_guid_history>ff744cf3b6f2111035b32aa21ef1c364:1434503852</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_licence_plate</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="licence_plate" table="x_660853_vms_vehicles"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Licence Plate&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;licence_plate&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_660853_vms_vehicles&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 01:10:27&lt;/sys_created_on&gt;&lt;sys_id&gt;e3c884b7dbf21110ca39b7e8f4961975&lt;/sys_id&gt;&lt;sys_name&gt;Licence Plate&lt;/sys_name&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_660853_vms_vehicles_licence_plate&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 01:10:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1724563683</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>ac71d9fbdbf61110ca39b7e8f49619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b0a19c60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Licence Plate</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>8b9a087bdcf21110101a02f5d858cb73</update_guid>
+<update_guid_history>8b9a087bdcf21110101a02f5d858cb73:1724563683,439a087b3af2111044e0badb680f5c5b:1724563683</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_milage_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation action="DELETE" element="milage" label="Milage" language="en" table="x_660853_vms_vehicles"><sys_documentation action="DELETE"><element>milage</element><help/><hint/><label>Milage</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Milages</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:41:46</sys_created_on><sys_id>b60404f3dbf21110ca39b7e8f49619cd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Milage</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_milage_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:41:46</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1064610038</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>ac71d9fbdbf61110ca39b7e8f49619e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af3c37e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>x_660853_vms_vehicles.milage</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>710584372ff21110845b9a19229b42dd</update_guid>
+<update_guid_history>710584372ff21110845b9a19229b42dd:-1064610038,630444f31ff211100f095e998fdf3942:303812274</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_a4554c37dbf21110ca39b7e8f49619df</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_660853_vms_vehicles</description><name>x_660853_vms_vehicles</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:21</sys_created_on><sys_id>a4554c37dbf21110ca39b7e8f49619df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_security_acl_a4554c37dbf21110ca39b7e8f49619df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1447482721</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>ac71d9fbdbf61110ca39b7e8f49619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4ef600000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>x_660853_vms_vehicles</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>ec554c37e3f21110d52fd707e5e2ade0</update_guid>
+<update_guid_history>ec554c37e3f21110d52fd707e5e2ade0:1447482721</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_110404f3dbf21110ca39b7e8f4961965</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="DELETE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_660853_vms_vehicles</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:41:41</sys_created_on><sys_id>110404f3dbf21110ca39b7e8f4961965</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>ua_table_licensing_config_110404f3dbf21110ca39b7e8f4961965</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:41:41</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>-1661730271</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>ac71d9fbdbf61110ca39b7e8f49619ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af3c67e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table/>
+<target_name>x_660853_vms_vehicles</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>42058437f6f21110e684b150f5660dfb</update_guid>
+<update_guid_history>42058437f6f21110e684b150f5660dfb:-1661730271</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_number_2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="DELETE" element="number_2" table="x_660853_vms_vehicles"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Number 2</column_label><comments/><create_roles/><default_value>javascript:global.getNextObjNumberPadded();</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>number_2</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_660853_vms_vehicles</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:41:47</sys_created_on><sys_id>b20404f3dbf21110ca39b7e8f49619ed</sys_id><sys_name>Number 2</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_dictionary_x_660853_vms_vehicles_number_2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:41:47</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>282215261</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e071d9fbdbf61110ca39b7e8f49619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af3ad740000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.number_2</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>5805843739f2111065d2441b641b8806</update_guid>
+<update_guid_history>5805843739f2111065d2441b641b8806:282215261,6f0444f3b2f21110d13e2a5453a77940:1147038609</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_vin_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="vin" label="VIN" language="en" table="x_660853_vms_vehicles"><sys_documentation action="INSERT_OR_UPDATE"><element>vin</element><help/><hint/><label>VIN</label><language>en</language><name>x_660853_vms_vehicles</name><plural>VINs</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 01:10:28</sys_created_on><sys_id>0f9a087bdbf21110ca39b7e8f4961961</sys_id><sys_mod_count>0</sys_mod_count><sys_name>VIN</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_vin_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:10:28</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1553656424</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e071d9fbdbf61110ca39b7e8f49619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b0a1a0c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.VIN</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>c79a087b1ff2111015fd45e88768fe76</update_guid>
+<update_guid_history>c79a087b1ff2111015fd45e88768fe76:1553656424</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_action_fa7a183bdb361110ca39b7e8f49619c1</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name/&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;false&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.status=='not_available'&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Check In&lt;/name&gt;&lt;onclick/&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[current.status = 'available'
+current.checked_in_by = gs.getUserID();
+current.update();
+action.setRedirectURL(current);]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 02:20:44&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;fa7a183bdb361110ca39b7e8f49619c1&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Check In&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_fa7a183bdb361110ca39b7e8f49619c1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 05:21:14&lt;/sys_updated_on&gt;&lt;table&gt;x_660853_vms_vehicles&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-936625824</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e071d9fbdbf61110ca39b7e8f49619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843befb1190000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Check In</target_name>
+<type>UI Action</type>
+<update_domain>global</update_domain>
+<update_guid>a4040dff37b61110553c3569b0e1ef47</update_guid>
+<update_guid_history>a4040dff37b61110553c3569b0e1ef47:-936625824,f0aff8fb15b61110c4d9b758d7ae8ed8:-708549054,4a56b8b368b61110d193f36085638f18:-81674049,bff724b7267611108084f6dada76645d:522398462,cd8664372e761110888d4b6ef15f88ae:-1032157950,37a5603776761110b2a1cb3c2c98e897:-2036245833,651edcfb183611108e3c22caab527bc0:1100814882,afad9cfbd836111013407256afda4841:-1293495618,f09d58fbf2361110007242cf17d01c24:-466632874,2cfc90fbfe361110eae998387c7b3811:-1094812470,a4bad83bae361110f846a17270fb3a42:-1583609365</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_7f744cf3dbf21110ca39b7e8f4961965</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="VMS">73744cf3dbf21110ca39b7e8f4961962</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Vehicles</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>1</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:43:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7f744cf3dbf21110ca39b7e8f4961965</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vehicles</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_app_module_7f744cf3dbf21110ca39b7e8f4961965</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:43:45</sys_updated_on><timeline_page/><title>Vehicles</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>12686161</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e471193bdbf61110ca39b7e8f49619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af1a4ba0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table/>
+<target_name>Vehicles</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>33744cf3e1f21110a33f6c49054dd068</update_guid>
+<update_guid_history>33744cf3e1f21110a33f6c49054dd068:12686161</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_mileage</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="mileage" table="x_660853_vms_vehicles"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Mileage&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;mileage&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Integer"&gt;integer&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_660853_vms_vehicles&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 00:53:28&lt;/sys_created_on&gt;&lt;sys_id&gt;9cd5c837dbf21110ca39b7e8f496191f&lt;/sys_id&gt;&lt;sys_name&gt;Mileage&lt;/sys_name&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_660853_vms_vehicles_mileage&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 00:53:28&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>724750975</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e471d9fbdbf61110ca39b7e8f49619e6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843afa8bc20000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Mileage</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>5ab680b7caf21110857b8a929b8e43db</update_guid>
+<update_guid_history>5ab680b7caf21110857b8a929b8e43db:724750975,86b680b7fdf21110e2c0daf6c891477c:724750975</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_number_2_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation action="DELETE" element="number_2" label="Number 2" language="en" table="x_660853_vms_vehicles"><sys_documentation action="DELETE"><element>number_2</element><help/><hint/><label>Number 2</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Number 2s</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:41:47</sys_created_on><sys_id>360404f3dbf21110ca39b7e8f49619ef</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Number 2</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_number_2_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:41:47</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1463083522</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e471d9fbdbf61110ca39b7e8f49619e9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af3abb40000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.number_2</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>d805443736f2111026337159a52364fd</update_guid>
+<update_guid_history>d805443736f2111026337159a52364fd:1463083522,bf0444f336f2111065c86e3bf8d90761:-501219094</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6c554c37dbf21110ca39b7e8f49619dc</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:21</sys_created_on><sys_id>6c554c37dbf21110ca39b7e8f49619dc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles.x_660853_vms.vehicles_user</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_security_acl display_value="x_660853_vms_vehicles">a4554c37dbf21110ca39b7e8f49619da</sys_security_acl><sys_update_name>sys_security_acl_role_6c554c37dbf21110ca39b7e8f49619dc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:21</sys_updated_on><sys_user_role display_value="x_660853_vms.vehicles_user" name="x_660853_vms.vehicles_user">14554037dbf21110ca39b7e8f49619f4</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1288688090</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e471d9fbdbf61110ca39b7e8f49619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4ef270000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>x_660853_vms_vehicles.x_660853_vms.vehicles_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>28554c3711f211104b50cc085b90d6de</update_guid>
+<update_guid_history>28554c3711f211104b50cc085b90d6de:-1288688090</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_50554037dbf21110ca39b7e8f49619fa</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>Vehicles</name><order>100</order><roles>x_660853_vms.vehicles_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:20</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>50554037dbf21110ca39b7e8f49619fa</sys_id><sys_mod_count>1</sys_mod_count><sys_name>VMS</sys_name><sys_overrides/><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_app_application_50554037dbf21110ca39b7e8f49619fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 01:25:54</sys_updated_on><title>VMS</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>1858143080</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e871193bdbf61110ca39b7e8f49619ec</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b1839e60000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table/>
+<target_name>VMS</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>092e48fbcdf2111074e4029521775f34</update_guid>
+<update_guid_history>092e48fbcdf2111074e4029521775f34:1858143080,1c55403770f211109ae681cdd9fb48fb:-975056130</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_checked_out_by</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="checked_out_by" table="x_660853_vms_vehicles"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Checked Out By&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;checked_out_by&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;x_660853_vms_vehicles&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="sys_user"&gt;sys_user&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 01:14:43&lt;/sys_created_on&gt;&lt;sys_id&gt;8c5b487bdbf21110ca39b7e8f4961962&lt;/sys_id&gt;&lt;sys_name&gt;Checked Out By&lt;/sys_name&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_660853_vms_vehicles_checked_out_by&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 01:14:43&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>1778821108</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e871d9fbdbf61110ca39b7e8f49619e5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b0dfefe0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Checked Out By</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>e19b08bba5f21110d33690dab3d78e5b</update_guid>
+<update_guid_history>e19b08bba5f21110d33690dab3d78e5b:1778821108</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_660853_vms_vehicles_make_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="make" label="Make" language="en" table="x_660853_vms_vehicles"><sys_documentation action="INSERT_OR_UPDATE"><element>make</element><help/><hint/><label>Make</label><language>en</language><name>x_660853_vms_vehicles</name><plural>Makes</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:53:28</sys_created_on><sys_id>cab680b7dbf21110ca39b7e8f49619c4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Make</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_documentation_x_660853_vms_vehicles_make_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:53:28</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-821297424</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e871d9fbdbf61110ca39b7e8f49619e8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843afa8c020000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.Make</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>d6b680b759f21110ff9822d5050946de</update_guid>
+<update_guid_history>d6b680b759f21110ff9822d5050946de:-821297424,a50584370bf211104f0915b08451cdc5:-1422866104,b30444f388f21110a4948d7b27b11a5f:-821297424</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_a4554c37dbf21110ca39b7e8f49619da</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_660853_vms_vehicles</description><name>x_660853_vms_vehicles</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:21</sys_created_on><sys_id>a4554c37dbf21110ca39b7e8f49619da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms_vehicles</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_security_acl_a4554c37dbf21110ca39b7e8f49619da</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1428042525</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e871d9fbdbf61110ca39b7e8f49619eb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4eeff0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>x_660853_vms_vehicles</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>ec554c37ecf2111065833168b0cd73db</update_guid>
+<update_guid_history>ec554c37ecf2111065833168b0cd73db:1428042525</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_14554037dbf21110ca39b7e8f49619f4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_660853_vms.vehicles_user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>vehicles_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 00:47:20</sys_created_on><sys_id>14554037dbf21110ca39b7e8f49619f4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_660853_vms.vehicles_user</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_user_role_14554037dbf21110ca39b7e8f49619f4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 00:47:20</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>1725746613</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>e871d9fbdbf61110ca39b7e8f49619ee</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843af4eb050000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table/>
+<target_name>x_660853_vms.vehicles_user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>185540371ff21110d71049659f62abf7</update_guid>
+<update_guid_history>185540371ff21110d71049659f62abf7:1725746613</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_660853_vms_vehicles_vin</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="vin" table="x_660853_vms_vehicles"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;VIN&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;vin&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;x_660853_vms_vehicles&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-03 01:10:27&lt;/sys_created_on&gt;&lt;sys_id&gt;6bb6447fdbb21110ca39b7e8f496198d&lt;/sys_id&gt;&lt;sys_name&gt;VIN&lt;/sys_name&gt;&lt;sys_package display_value="VMS" source="x_660853_vms"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="VMS"&gt;5f420433dbf21110ca39b7e8f496190d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_660853_vms_vehicles_vin&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-03 01:10:27&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-1738422251</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>ec71d9fbdbf61110ca39b7e8f49619e7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843b0a199b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles.VIN</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>039a087b32f21110b409a36b19600f72</update_guid>
+<update_guid_history>039a087b32f21110b409a36b19600f72:-1738422251,4b9a087bd9f211108cc20bb50a74cc56:-1738422251</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_26ea38b7dbb61110ca39b7e8f4961944</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Vehicles activity formatter fields</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.ui.x_660853_vms_vehicles_activity.fields</name><read_roles/><suffix>x_660853_vms</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 04:41:31</sys_created_on><sys_id>26ea38b7dbb61110ca39b7e8f4961944</sys_id><sys_mod_count>0</sys_mod_count><sys_name>glide.ui.x_660853_vms_vehicles_activity.fields</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_properties_26ea38b7dbb61110ca39b7e8f4961944</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 04:41:31</sys_updated_on><type>string</type><value>checked_out_by,sys_created_on,sys_created_by,licence_plate,make,mileage,model,number,parking_space,status,sys_tags,sys_updated_on,sys_updated_by,sys_mod_count,vin,*Attachments*,*EmailCorrespondence*,*Sidebar discussion*,*EmailAutogenerated*,*Relations*,*Sidebar posted message*</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=26ea38b7dbb61110ca39b7e8f4961944"/></record_update>]]></payload>
+<payload_hash>1506152691</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>ec71d9fbdbf61110ca39b7e8f49619ea</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843bcb76a70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table/>
+<target_name>glide.ui.x_660853_vms_vehicles_activity.fields</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>4dfa38b721b61110eb08ecf48a329949</update_guid>
+<update_guid_history>4dfa38b721b61110eb08ecf48a329949:1506152691</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="VMS">5f420433dbf21110ca39b7e8f496190d</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_related_x_660853_vms_vehicles_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_related sys_domain="global" table="x_660853_vms_vehicles" version="2" view=""><sys_ui_related_list_entry action="INSERT_OR_UPDATE"><filter/><list_id display_value="Vehicles - Default view" name="x_660853_vms_vehicles" related_list="NULL" sys_domain="global" view="Default view">f4d0017fdbb61110ca39b7e8f4961951</list_id><order_by/><position>0</position><related_list>REL:702782ce0a0a0b1b007514c6daa62dd5</related_list><sys_class_name>sys_ui_related_list_entry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:07:19</sys_created_on><sys_id>f0d0017fdbb61110ca39b7e8f4961952</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:07:19</sys_updated_on></sys_ui_related_list_entry><sys_ui_related_list action="INSERT_OR_UPDATE"><calculated_name>Vehicles - Default view</calculated_name><filter/><name>x_660853_vms_vehicles</name><order_by/><position/><related_list/><sys_class_name>sys_ui_related_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-03 05:07:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f4d0017fdbb61110ca39b7e8f4961951</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vehicles - Default view</sys_name><sys_package display_value="VMS" source="x_660853_vms">5f420433dbf21110ca39b7e8f496190d</sys_package><sys_policy/><sys_scope display_value="VMS">5f420433dbf21110ca39b7e8f496190d</sys_scope><sys_update_name>sys_ui_related_x_660853_vms_vehicles_null</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-03 05:07:19</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_related_list></sys_ui_related></record_update>]]></payload>
+<payload_hash>388503522</payload_hash>
+<remote_update_set display_value="Default">2071193bdbf61110ca39b7e8f49619ec</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2022-11-03 06:19:57</sys_created_on>
+<sys_id>ec71d9fbdbf61110ca39b7e8f49619ed</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1843be2f2620000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2022-11-03 06:19:57</sys_updated_on>
+<table>x_660853_vms_vehicles</table>
+<target_name>Vehicles</target_name>
+<type>Related Lists</type>
+<update_domain>global</update_domain>
+<update_guid>f4d0017fabb61110e73bcea1dab09153</update_guid>
+<update_guid_history>f4d0017fabb61110e73bcea1dab09153:388503522,d0ec347bfbb6111097b7fae75143710a:-1258980528,a89cb43b9db611109998edc59da72bb1:953897415</update_guid_history>
+<update_set display_value=""/>
+<view>Default view</view>
+</sys_update_xml>
+</unload>
